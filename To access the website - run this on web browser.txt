@@ -1,0 +1,3 @@
+http://localhost/Online%20Retail/login.html
+
+https://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=project&table=user_details

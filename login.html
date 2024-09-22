@@ -1,0 +1,30 @@
+<!-- form.php (User Login Page) -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Assebility</h1>
+    <h2>User Login Page</h2>
+    <div class="login">
+        <form id="login" method="post" action="form.php">
+            <label for="Uname">User Name</label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username" class="inputText">
+            <br><br>
+            <label for="Pass">Password</label>
+            <input type="password" name="Pass" id="Pass" placeholder="Password" class="inputText">
+            <br><br>
+            <button type="submit">Login</button>
+            <br><br>
+            <span>New User?</span>
+            <a href="newuser.html">Registration</a>
+            <br><br>
+
+            <!-- Resource Monitor Option -->
+            <button type="button" onclick="window.location.href='admin.html'">Resource Monitor</button>
+        </form>
+    </div>
+</body>
+</html>

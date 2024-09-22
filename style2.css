@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.monitor-section {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.monitor-section h2 {
+    color: #007BFF;
+}
+
+.monitor-section p {
+    font-size: 18px;
+    color: #333;
+}
+
+.monitor-section {
+    margin-bottom: 20px;
+}
+
+.monitor-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.monitor-section table, .monitor-section th, .monitor-section td {
+    border: 1px solid black;
+}
+
+.monitor-section th, .monitor-section td {
+    padding: 10px;
+    text-align: left;
+}
+
+.monitor-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.monitor-section ul li {
+    margin: 5px 0;
+}
+
+.monitor-section ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.monitor-section ul li a:hover {
+    text-decoration: underline;
+}

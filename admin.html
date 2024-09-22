@@ -1,0 +1,26 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="style3.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Login</h1>
+        <div class="login-box">
+            <form id="admin-login" method="post" action="admin_login.php">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Enter Admin Username" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter Admin Password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
