@@ -110,6 +110,6 @@ License
 Public
 ---
 
-### Steps to Deploy on GitHub
-1. **Extract your project files** and ensure that all code is organized properly.
+### Steps to Deploy on GitHub*
+*Extract your project files** and ensure that all code is organized properly.
 Push your code and make sure everything is live on GitHub.
