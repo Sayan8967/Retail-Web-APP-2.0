@@ -46,20 +46,22 @@ First, you need to clone this repository to your local machine. Use the followin
 
 
 git clone https://github.com/YOUR_USERNAME/online-retail.git
-Step 2: Install Dependencies
+
+### Step 2: Install Dependencies
 For this PHP project, you'll need to ensure your environment has the following installed:
 
 PHP (v7.4 or higher)
 MySQL Server
 XAMPP (to serve the application)
-Step 3: Setup Database
+
+### Step 3: Setup Database
 Create a MySQL database named project.
 Run the provided SQL file (db.sql) to set up the necessary tables.
 Update the database connection details in the file config.php or system_info.php as necessary:
 
 $con = mysqli_connect("localhost", "root", "", "project");
 
-Step 4: Start the Server
+### Step 4: Start the Server
 If you're using a local environment like XAMPP or WAMP, place your project in the htdocs directory and start Apache and MySQL services. Then access the application by visiting http://localhost/online-retail/.
 
 Configuration
@@ -110,6 +112,6 @@ License
 Public
 ---
 
-### Steps to Deploy on GitHub*
-*Extract your project files** and ensure that all code is organized properly.
+### Steps to Deploy on GitHub
+*Extract your project files* and ensure that all code is organized properly.
 Push your code and make sure everything is live on GitHub.
